@@ -23,12 +23,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Sample gallery items
     const galleryItems = [
-        { id: 1, title: 'Abstract Harmony', price: 500, image: 'https://example.com/abstract-harmony.jpg' },
-        { id: 2, title: 'Serene Landscape', price: 750, image: 'https://example.com/serene-landscape.jpg' },
-        { id: 3, title: 'Urban Rhythm', price: 600, image: 'https://example.com/urban-rhythm.jpg' },
-        { id: 4, title: 'Ethereal Dreams', price: 900, image: 'https://example.com/ethereal-dreams.jpg' },
-        { id: 5, title: 'Cosmic Dance', price: 1200, image: 'https://example.com/cosmic-dance.jpg' },
-        { id: 6, title: 'Whispers of Nature', price: 800, image: 'https://example.com/whispers-of-nature.jpg' },
+        { id: 1, title: 'Charcoal Drawing', price: 500, image: 'https://raw.githubusercontent.com/paulkiwana/My-gallery/refs/heads/main/CharcoalArt.jpg' },
+        { id: 2, title: 'NAAWA', price: 750, image: 'https://raw.githubusercontent.com/paulkiwana/My-gallery/refs/heads/main/NAAWA.jpg' },
+        { id: 3, title: 'CHILD OF GOD', price: 600, image: 'https://raw.githubusercontent.com/paulkiwana/My-gallery/refs/heads/main/childofgod.jpg' },
+        { id: 4, title: 'CHILDREN OF GOD', price: 900, image: 'https://raw.githubusercontent.com/paulkiwana/My-gallery/refs/heads/main/childrenofgod.jpg' },
+        { id: 5, title: 'PURPLE MEADOW', price: 1200, image: 'https://raw.githubusercontent.com/paulkiwana/My-gallery/refs/heads/main/PURPLEMEADOW.jpg' },
+        { id: 6, title: 'OF THE DEEP', price: 800, image: 'https://raw.githubusercontent.com/paulkiwana/My-gallery/refs/heads/main/ofthedeep.jpg' },
     ];
 
     // Render gallery items
