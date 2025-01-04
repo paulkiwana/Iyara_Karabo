@@ -243,6 +243,33 @@ footer {
     font-weight: bold;
     cursor: pointer;
 }
+.category-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.category-tab {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.category-tab.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.category-tab:hover {
+    background-color: #e0e0e0;
+}
+
+.category-tab.active:hover {
+    background-color: #0056b3;
+}
 
 @media screen and (max-width: 768px) {
     .desktop-nav {
