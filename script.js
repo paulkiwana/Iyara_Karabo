@@ -290,7 +290,10 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 4, title: 'New Creature', price: 900, image: './assets/New Creature.jpg', category: 'oil' },
         { id: 5, title: 'Washed', price: 1200, image: './assets/Washed.JPG', category: 'charcoal' },
         { id: 6, title: 'OF THE DEEP', price: 800, image: './assets/Of The Deep.jpg', category: 'oil' },
-       // {title}
+       { id: 7, title: 'Beside A Window', price: 800, image: './assets/Beside a Window.jpg', category: 'oil' },
+       { id: 8, title: 'What If I Fly', price: 800, image: './assets/What if I Fly.jpg', category: 'oil' },
+       { id: 9, title: 'Glimpse', price: 800, image: './assets/GLIMPSE.JPG', category: 'oil' },
+       { id: 10, title: 'As I Love Myself', price: 800, image: './assets/As I Love Myself.JPG', category: 'oil' }
     ];
 
     // Handle category tab clicks
