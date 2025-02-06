@@ -290,6 +290,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 4, title: 'New Creature', price: 900, image: './assets/New Creature.jpg', category: 'oil' },
         { id: 5, title: 'Washed', price: 1200, image: './assets/Washed.JPG', category: 'charcoal' },
         { id: 6, title: 'OF THE DEEP', price: 800, image: './assets/Of The Deep.jpg', category: 'oil' },
+       // {title}
     ];
 
     // Handle category tab clicks
@@ -312,8 +313,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 <img src="${item.image}" alt="${item.title}">
                 <div class="gallery-item-info">
                     <h3 class="gallery-item-title">${item.title}</h3>
-                    <p class="gallery-item-price">$${item.price}</p>
-                    <button class="buy-button" data-id="${item.id}">Buy Now</button>
+                    
+                   <!--<p class="gallery-item-price">$${item.price}</p>
+                    <button class="buy-button" data-id="${item.id}">Buy Now</button>-->
                 </div>
             `;
             galleryGrid.appendChild(galleryItem);
