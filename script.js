@@ -284,12 +284,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Sample gallery items
     const galleryItems = [
-        { id: 1, title: 'Charcoal Drawing', price: 500, image: 'https://raw.githubusercontent.com/paulkiwana/My-gallery/refs/heads/main/CharcoalArt.jpg', category: 'charcoal' },
-        { id: 2, title: 'NAAWA', price: 750, image: 'https://raw.githubusercontent.com/paulkiwana/My-gallery/refs/heads/main/NAAWA.jpg', category: 'oil' },
-        { id: 3, title: 'CHILD OF GOD', price: 600, image: 'https://raw.githubusercontent.com/paulkiwana/My-gallery/refs/heads/main/childofgod.jpg', category: 'charcoal' },
-        { id: 4, title: 'CHILDREN OF GOD', price: 900, image: 'https://raw.githubusercontent.com/paulkiwana/My-gallery/refs/heads/main/childrenofgod.jpg', category: 'oil' },
-        { id: 5, title: 'PURPLE MEADOW', price: 1200, image: 'https://raw.githubusercontent.com/paulkiwana/My-gallery/refs/heads/main/PURPLEMEADOW.jpg', category: 'oil' },
-        { id: 6, title: 'OF THE DEEP', price: 800, image: 'https://raw.githubusercontent.com/paulkiwana/My-gallery/refs/heads/main/ofthedeep.jpg', category: 'charcoal' },
+        { id: 1, title: 'HOPE', price: 500, image: './assets/HOPE.JPG', category: 'charcoal' },
+        { id: 2, title: 'Faith', price: 750, image: './assets/Faith.JPG', category: 'charcoal' },
+        { id: 3, title: 'CHILDREN OF GOD', price:"50" ,image: "./assets/Children Of God.jpg", category: 'oil' },
+        { id: 4, title: 'New Creature', price: 900, image: './assets/New Creature.jpg', category: 'oil' },
+        { id: 5, title: 'Washed', price: 1200, image: './assets/Washed.JPG', category: 'charcoal' },
+        { id: 6, title: 'OF THE DEEP', price: 800, image: './assets/Of The Deep.jpg', category: 'oil' },
     ];
 
     // Handle category tab clicks
